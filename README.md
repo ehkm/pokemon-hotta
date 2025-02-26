@@ -23,7 +23,7 @@
 ### 開発時 Nuxt のみ起動
 
 ```bash
-$env:NUXT_BUCKET_NAME='km202501-erh2' # hotta追記
+$env:NUXT_BUCKET_NAME='' # hotta追記
 $env:NODE_TLS_REJECT_UNAUTHORIZED="0" # hotta追記
 aws configure # AWS CLI プロファイルの設定
 npm install # npm パッケージのインストール
